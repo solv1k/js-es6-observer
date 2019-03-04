@@ -16,8 +16,8 @@ export class Observer {
     if (! this.listeners[event] || ! this.listeners[event].includes(listener)) {
       return false
     }
-
-    this.listeners[event].slice(this.listeners[event].indexOf(listener), 1)
+    
+    this.listeners[event].splice(this.listeners[event].indexOf(listener), 1)
   }
 
   fire(event, data) {
