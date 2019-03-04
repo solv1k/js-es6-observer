@@ -16,6 +16,18 @@ export class Writer {
     this.printLines()
   }
 
+  write() {
+    this.append(...arguments)
+  }
+
+  printLine() {
+    this.append(...arguments)
+  }
+
+  printLn() {
+    this.append(...arguments)
+  }
+
   printLines() {
     const appHtmlElement = document.querySelector('#app')
 

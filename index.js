@@ -13,7 +13,7 @@ observer.subscribe(user2, 'greeting')
 observer.subscribe(user3, 'greeting')
 observer.fire('greeting', { text: 'Hello, World!' })
 
-writer.append('---')
+writer.printLn('---')
 
 observer.unsubscribe(user2, 'greeting')
 observer.fire('greeting', { text: 'Hello, again!' })
