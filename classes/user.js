@@ -7,6 +7,6 @@ export class User {
 
   greeting(data) {
     const writer = new Writer()
-    writer.append(`${this.name} say: ${data.text}`)
+    writer.printLn(`${this.name} say: ${data.text}`)
   }
 }
