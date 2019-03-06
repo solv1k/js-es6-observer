@@ -8,7 +8,7 @@ const writer = new Writer()
 const observer = new Observer()
 const user1 = new User({ name: 'Solv1k'} )
 const user2 = new User({ name: 'Foo'} )
-const user3 = new User({ name: 'Bar'} )
+const user3 = new User({ name: 'Baz'} )
 
 observer.subscribe(user1, 'greeting')
 observer.subscribe(user2, 'greeting')
