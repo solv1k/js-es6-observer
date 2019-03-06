@@ -1,3 +1,5 @@
+'use strict'
+
 import { Writer } from './classes/writer.js'
 import { Observer } from './classes/observer.js'
 import { User } from './classes/user.js'

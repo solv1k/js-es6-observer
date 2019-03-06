@@ -1,3 +1,5 @@
+'use strict'
+
 export class Observer {
   constructor() {
     this.listeners = []

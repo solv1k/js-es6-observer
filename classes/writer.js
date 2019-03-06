@@ -1,3 +1,5 @@
+'use strict'
+
 let singleton = null
 
 export class Writer {
