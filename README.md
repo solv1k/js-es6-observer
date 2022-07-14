@@ -1,1 +1,1 @@
-# js-test
+# Test some JS features
