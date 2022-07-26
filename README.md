@@ -1,1 +1,3 @@
-# Test some JS features
+## About project
+
+Test some JS features, working with events.
