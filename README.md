@@ -1,3 +1,3 @@
 ## About project
 
-Test some JS features, working with events.
+Simple observer written with JavaScript (ES6).
